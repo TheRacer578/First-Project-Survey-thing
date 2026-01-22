@@ -10,9 +10,9 @@ print(f"You like {food}?")
 time.sleep(1)
 print("i like cheeseburgers, they are a masterpiece")
 time.sleep(2)
-arch = input ("Do you know what Arch Linux is? ").lower()
+arch = input ("Do you know what Linux is? ").lower()
 if arch == ('no'): 
-    print("Arch Linux is a operating system based off the Linux Kernel, known for being difficult, which in my opinion, it aint that hard")
+    print("Linux is a operating system, with mutiple distrobutions. People say it's hard, but really it is not")
 if arch == ('yes'): 
     print("cool, now i dont have to explain it")
 time.sleep(2)
@@ -20,7 +20,7 @@ q1 = input("do you use Linux or Windows? ").lower()
 
 if q1.startswith ("w"):
 
-     print("Ok, i wont judge, i used to use windows until i wanted to learn programming, then i switched over to linux.")
+     print("Ok, i wont judge, i used to use windows until i wanted to learn programming, then i switched over to arch linux.")
 
 else:
      print("Did we just become best freinds?!")
